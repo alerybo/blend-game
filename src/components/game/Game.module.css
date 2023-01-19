@@ -1,0 +1,23 @@
+.gameContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  margin-bottom: 6rem;
+}
+
+.title {
+  margin-bottom: 2rem;
+}
+
+.widget {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inlineIcon {
+  vertical-align: baseline;
+}

@@ -1,0 +1,13 @@
+.tile {
+  aspect-ratio: 1;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.selected {
+  scale: 110%;
+  aspect-ratio: 1;
+  border-radius: 10%;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
