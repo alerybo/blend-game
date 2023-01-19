@@ -1,3 +1,14 @@
+## Blend Game
+
+Swap color tiles to make a gradient! 
+
+[Live demo](https://blend-game.vercel.app/)
+
+
+![portfolio-blend-game](https://user-images.githubusercontent.com/104735256/213577376-4e19672b-2c22-4098-8cbd-9953dc5f0ddf.png)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
