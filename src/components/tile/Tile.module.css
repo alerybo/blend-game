@@ -4,10 +4,6 @@
   cursor: pointer;
 }
 
-.tile ::before {
-  content: " ";
-}
-
 .selected {
   scale: 110%;
   aspect-ratio: 1;
