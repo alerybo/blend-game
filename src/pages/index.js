@@ -1,10 +1,6 @@
 import Head from "next/head";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
-
-
-
-import Timer from "@/components/timer/Timer";
 import Game from "@/components/game/Game";
 
 const inter = Inter({ subsets: ["latin"] });

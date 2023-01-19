@@ -28,13 +28,13 @@ h1 {
 p {
   color: rgb(255, 233, 233);
   font-family: "Jost", sans-serif;
-  font-size: x-large;
+  font-size: large;
 }
 
 .text-button {
   border-radius: 2rem;
   padding: 0.5rem 2rem;
-  margin: 0 1rem;
+  margin: 1rem;
 
   background: rgba(255, 255, 255, 0.066);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
@@ -68,4 +68,10 @@ p {
 .icon {
   color: rgb(255, 233, 233);
   font-size: xx-large;
+}
+
+@media (min-width: 481px) {
+  p {
+    font-size: x-large;
+  }
 }

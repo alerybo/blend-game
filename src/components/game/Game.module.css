@@ -6,11 +6,12 @@
 
 .buttonContainer {
   display: flex;
-  margin-bottom: 6rem;
+  flex-direction: column;
+  margin-bottom: 3rem;
 }
 
 .title {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .widget {
@@ -20,4 +21,12 @@
 
 .inlineIcon {
   vertical-align: baseline;
+}
+
+@media (min-width: 481px) {
+  .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+  }
 }
