@@ -13,9 +13,7 @@ const Tile = ({ color, id, handleSelect, selectedTileId, size }) => {
       className={selectedTileId === id ? styles.selected : styles.tile}
       style={tileStyle}
       onClick={() => handleSelect(id)}
-    >
-      hi
-    </div>
+    ></div>
   );
 };
 

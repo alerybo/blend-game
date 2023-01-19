@@ -1,13 +1,27 @@
 .tile {
-  aspect-ratio: 1;
   border-radius: 20%;
   cursor: pointer;
+  aspect-ratio: 1 / 1;
 }
 
 .selected {
   scale: 110%;
-  aspect-ratio: 1;
+  aspect-ratio: 1 / 1;
   border-radius: 10%;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
+}
+
+@supports not (aspect-ratio: 1 / 1) {
+  .tile::before {
+    float: left;
+    padding-top: 100%;
+    content: "";
+  }
+
+  .tile::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
 }
